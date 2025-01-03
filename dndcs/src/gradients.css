@@ -1,0 +1,42 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fdfdfd;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  --background-gradient: linear-gradient(0deg,
+      rgba(181, 116, 255, 1) 19%,
+      rgba(24, 22, 22, 1) 44%);
+  --background-size: 100vw 160vh;
+}
+
+@media (max-width: 2500px),
+(max-height: 2500px) {
+  :root {
+    --background-size: 100vw 220vh;
+  }
+}
+
+@media (max-width: 1500px),
+(max-height: 2000px) {
+  :root {
+    --background-size: 100vw 180vh;
+  }
+}
+
+@media (max-width: 900px),
+(max-height: 1400px) {
+  :root {
+    --background-size: 100vw 180vh;
+  }
+}
+
+@media (max-width: 400px),
+(max-height: 700px) {
+  :root {
+    --background-size: 100vw 160vh;
+  }
+}
